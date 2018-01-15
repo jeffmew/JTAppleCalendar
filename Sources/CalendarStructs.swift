@@ -100,7 +100,7 @@ public struct ConfigurationParameters {
         
         if let validNumberOfRows = numberOfRows {
             switch validNumberOfRows {
-            case 1, 2, 3:
+            case 1, 2, 3, 4:
                 self.numberOfRows = validNumberOfRows
             default:
                 break
